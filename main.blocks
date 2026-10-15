@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="Yc,#Kd}I*6[C}1Q_L{Y1" x="0" y="0"><statement name="HANDLER"><block type="radio_set_group" id="eO#_#naf%-4Tf8_R9knK"><value name="ID"><shadow type="math_number_minmax" id="MJC{4J@@w!3+TkRd!{6I"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">126</field></shadow></value></block></statement></block><block type="device_forever" id="#U$,H30j803QoHL1CYnw" x="205" y="0"></block><block type="controls_if" id=":OHHecT;HJN;;Q*XC?W4" disabled-reasons="pxt_automatic_disabled" x="725" y="88"><mutation elseif="1" else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="lFH-J0eE}JUUgK?KX7TE"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="zm^TSw4L=@F3%ya[!ikI" disabled-reasons="pxt_automatic_disabled"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="d~F{PsMlHIAy!k3~x~)@"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="-~fDKikUN*j?RM}sAT65" disabled-reasons="pxt_automatic_disabled"><mutation localizationname="radio.onReceivedNumber|handlerParam|receivedNumber"></mutation><field name="VALUE">receivedNumber</field></block></value><value name="B"><shadow type="math_number" id="MbzXpFB@DS!DkI,@IyCy" disabled-reasons="pxt_automatic_disabled"><field name="NUM">10</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="/CuYx`h~M_Jtspck`D5o" disabled-reasons="pxt_automatic_disabled"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # . # . # 
+        # . # . # 
+        # . # . #
+        `</field></block></statement><value name="IF1"><shadow type="logic_boolean" id="F#M_`*rVS|xqfkmmvu/m"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="=6aP.HJNc)f_zxelH?:e" disabled-reasons="pxt_automatic_disabled"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="bI=hlByDxuVgEO},_p$."><field name="NUM">0</field></shadow><block type="argument_reporter_number" id=")3teETfc,}./4~1R=g^v" disabled-reasons="pxt_automatic_disabled"><mutation localizationname="radio.onReceivedNumber|handlerParam|receivedNumber"></mutation><field name="VALUE">receivedNumber</field></block></value><value name="B"><shadow type="math_number" id="$W!FE_|2Nyxk8H{leWl@" disabled-reasons="pxt_automatic_disabled"><field name="NUM">15</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="$Y,aFy6yHdN#S@1_+p,0" disabled-reasons="pxt_automatic_disabled"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="BE9KVU6?}9,O(b8LbICq" disabled-reasons="pxt_automatic_disabled"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # # # # # 
+        . . . . .
+        `</field></block></statement></block><block type="device_button_event" id=";B@,9?+y7NObsv}Hx0|D" x="22" y="148"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="radio_datagram_send" id="=L^8;4#Pao1Ib#LI}##+"><value name="value"><shadow type="math_number" id="n5L202#~@:Q4]6D,EV-x"><field name="NUM">5</field></shadow></value></block></statement></block><block type="radio_on_number_drag" id="=~MUj~l?scv)61Uu3jV:" x="263" y="138"><value name="HANDLER_DRAG_PARAM_receivedNumber"><block type="argument_reporter_number" id="|ifdliexflB1O^5evz([" deletable="false"><mutation localizationname="radio.onReceivedNumber|handlerParam|receivedNumber"></mutation><field name="VALUE">receivedNumber</field></block></value></block><block type="argument_reporter_number" id="B};JndXZP%p@|j1,(Mjf" disabled-reasons="pxt_automatic_disabled" x="516" y="204"><mutation localizationname="radio.onReceivedNumber|handlerParam|receivedNumber"></mutation><field name="VALUE">receivedNumber</field></block><block type="device_button_event" id="P^a!DB,iQshtV#sklM2p" x="38" y="283"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="radio_datagram_send" id="/xW^PrKzGXSECO$c9j.q"><value name="value"><shadow type="math_number" id="Ah=KeL0Xk:l10=Fiu6nS"><field name="NUM">6</field></shadow></value></block></statement></block><block type="device_show_leds" id="miOx$H3~*|2]EVe_nf=!" disabled-reasons="pxt_automatic_disabled" x="215" y="301"><field name="LEDS">`
+        . # . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></xml>
